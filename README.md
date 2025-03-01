@@ -1,4 +1,5 @@
-The code originates from the Qt example project "Gradients", where everything else was stripped. So all mechanims active here, are originating from that project. 
+The code originates from the Qt example project "Gradients", where everything else other than required for handling hoverdots on a Shadewidget area was stripped. 
+So all mechanims active here, are originating from that project. 
 
 A minimal project, which lets the user drag, add and delete dots on an area. 
 
