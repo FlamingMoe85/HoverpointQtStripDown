@@ -1,3 +1,5 @@
+The code originates from the Qt example project "Gradients", where everything else was stripped. So all mechanims active here, are originating from that project. 
+
 A minimal project, which lets the user drag, add and delete dots on an area. 
 
 The class doing that is "Shadewidgets" which uses "Hoverpoints". 
@@ -7,7 +9,6 @@ The rest of class Hoverpoints is logic to work on this vector - especially handl
 The logic also takes care to keep the dots in "m_points" in order, by triggering signal firePointChange(), which end ins slot pointsUpdated() in gradients.cpp, 
 where a sort function opperates on the points.  
 
-The code originates from the Qt example project "Gradients", where everything else was stripped. So all mechanims active here, are originating from that project. 
 
 One change is introduced though. In the original code the dots are representing the absolute pixel positions. That means, when the window is resized, the dots change 
 thier value. 
